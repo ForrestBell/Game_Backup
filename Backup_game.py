@@ -153,7 +153,7 @@ while playerhealth > 0:
     time.sleep(1)
     print "You travel to a near by town and visit the tavern. An wise monk runs into you."
     print ""
-    print "Wise Monk: 'The secret to true power starts and the start, can not be used"
+    print "Wise Monk: 'The secret to true power starts at the start, can not be used"
     print "until the end, and reads reverse. It watches over your path, but not your life.'"
     print ""
     print "He runs away and disapeers..."
