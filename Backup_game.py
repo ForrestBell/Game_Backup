@@ -6,7 +6,7 @@ monster1health = 100
 monster2health = 175
 monster3health = 300
 monster4health = 600
-monster5health = 1000
+monster5health = 2000
 monster1attack = random.randint(10,30)
 monster2attack = random.randint(20,50)
 monster3attack = random.randint(20,100)
@@ -14,7 +14,7 @@ monster45move = random.randint(1,5)
 monster4heal = random.randint(10,75)
 monster5heal = random.randint(20,150)
 monster4attack = random.randint(20,125)
-monster5attack = random.randint(50,250)
+monster5attack = random.randint(50,300)
 heal = 125
 punchAttk = 10
 swordAttk = 30
@@ -334,7 +334,7 @@ while playerhealth > 0:
                     print "You set the Devil ablaze!"
                     monster5health = monster5health - fireballAttk
                 if attack == str('TITAN'):
-                    print "You fired rocket launchers at his face will shooting him with a machine gun!"
+                    print "You fired rocket launchers at his face while shooting him with a machine gun!"
                     monster5health = monster5health - TITANattk
                 if monster5health > 0:
                     print "The Devill fights back!"
